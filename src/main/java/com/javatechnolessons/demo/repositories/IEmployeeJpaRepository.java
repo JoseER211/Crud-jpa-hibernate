@@ -1,4 +1,4 @@
-package com.javatechnolessons.demo.repository;
+package com.javatechnolessons.demo.repositories;
 
 import java.util.List;
 
@@ -6,6 +6,7 @@ import com.javatechnolessons.demo.model.Employee;
 import com.javatechnolessons.demo.model.Role;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+
 import org.springframework.stereotype.Repository;
 
 /**
@@ -24,4 +25,9 @@ public interface IEmployeeJpaRepository extends JpaRepository<Employee, Long> {
 
     List<Employee> findByRole(Role role);
 
+
+
+
 }
+
+

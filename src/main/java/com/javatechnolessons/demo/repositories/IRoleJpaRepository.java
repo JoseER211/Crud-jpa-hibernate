@@ -1,4 +1,4 @@
-package com.javatechnolessons.demo.repository;
+package com.javatechnolessons.demo.repositories;
 
 import com.javatechnolessons.demo.model.Role;
 

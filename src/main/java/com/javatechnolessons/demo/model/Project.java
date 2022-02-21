@@ -12,7 +12,8 @@ import javax.persistence.Id;
  * @version 1.0
  */
 @Entity
-public class Project {
+public class
+Project {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

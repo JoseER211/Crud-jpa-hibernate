@@ -1,13 +1,10 @@
-package com.javatechnolessons.demo.repository;
+package com.javatechnolessons.demo.repositories;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.javatechnolessons.demo.model.Employee;
 import com.javatechnolessons.demo.model.Project;
 import com.javatechnolessons.demo.model.Role;
-import com.javatechnolessons.demo.repository.IEmployeeJpaRepository;
-import com.javatechnolessons.demo.repository.IProjectJpaRepository;
-import com.javatechnolessons.demo.repository.IRoleJpaRepository;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
